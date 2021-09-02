@@ -9,11 +9,6 @@
 body,h1,h2{font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 p {line-height: 2}
-.bgimg, .bgimg2 {
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
 .video-container {
     overflow: hidden;
     position: relative;
@@ -52,7 +47,7 @@ p {line-height: 2}
 
 
 
-<div class="w3-container w3-white w3-grayscale-min" id="us">
+<div class="w3-container w3-white" id="us">
   <div class="w3-content">
     <p><i>720 Minutes Master Clock: all 720 minutes in their specific order.</i></p>
     <h1 class="w3-center w3-text-grey"><b>720 Minutes</b></h1>
@@ -64,7 +59,7 @@ p {line-height: 2}
     <h2 class="w3-center w3-text-grey">Clock</h2>
     <p>The clock is ticking every second and the particles form the hands for the hours and the minutes. Some might be harder to see, so here is a simple diagram:</p>
 
-     <img class="w3-round-large w3-grayscale-min" src="hands1024.png" style="width:100%;margin:32px 0" alt="How particles are creating the hands">
+     <img class="w3-round-large" src="hands1024.png" style="width:100%;margin:32px 0" alt="How particles are creating the hands">
 
     <h2 class="w3-center w3-text-grey">Generative Art</h2>
     <p>The whole piece of 720 Minutes is a single javascript script that weights 17kb and that is stored on the Ethereum blockchain as a text file. Each iteration of 720 Minutes is generated from the same script, where a unique <b>hash</b>, created when the piece was minted (purchased) is used to derive all properties of the piece.</p>
@@ -72,6 +67,7 @@ p {line-height: 2}
 
     <p>720 Minutes explored the generative space of that algorithm using a set of 17 features, giving each iteration its unique appearance, from the color palette, the shapes used to the intensity of the flow of particles. Here are a few examples of what the algorithm has produced in terms of variation.</p>
 
+     <img class="w3-round" src="variations.png" style="width:100%;margin:32px 0" alt="Some variations produced by the algorithm">
     <h2 class="w3-center w3-text-grey">Magic Minute</h2>
 
     <p>720 Minutes plays with the idea of twelve hours cycles: every twelve hours the hands of the clock are in the same position, yet we are not. We have aged, and the world has moved on. The display of the clock has not. The persistence of the piece is guaranteed by the blockchain: I would argue that if the Ethereum blockchain disappears, we are looking at a civilization ending event. Each 720 Minutes will show the time in their unique way forever.</p>
@@ -111,7 +107,7 @@ p {line-height: 2}
 
     <br />
     <br />
-    <h3 class="w3-center w3-text-grey">720 Minutes Extension</h3>
+    <h2 class="w3-center w3-text-grey">720 Minutes Extension</h2>
     <p>720 Minutes was extended as a live installation on the Sony Vision Shibuya display located in Shibuya, Tokyo, in collaboration with Sony PCL. The extended version includes motion tracking, music and a numeric display to help convey the passage of time.</p>
     
     <div class="video-container w3-margin-bottom">
@@ -119,7 +115,7 @@ p {line-height: 2}
     </div>
 
 
-    <h3 class="w3-center w3-text-grey">Credits</h3>
+    <h3 class="w3-center w3-text-grey" style="margin-top:100px">Credits</h3>
     <p>Design, code: Alexis André</p>
   </div>
 </div>
